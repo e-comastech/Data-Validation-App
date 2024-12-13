@@ -70,7 +70,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-8">
+    <div className="min-h-screen bg-gray-100 p-8 relative">
       <div className="max-w-7xl mx-auto space-y-8">
         <div className="flex flex-col items-center">
           <ScenarioSelector
@@ -121,6 +121,9 @@ function App() {
           />
         )}
       </div>
+      <footer className="text-center py-4 text-gray-600 absolute bottom-0 w-full">
+        Built with ❤️ and lots of ☕ by Clau
+      </footer>
     </div>
   );
 }
